@@ -1,0 +1,63 @@
+# Maven / Java
+target/
+*.class
+HELP.md
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE - Eclipse / Spring Tool Suite
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts-cache
+.sts4-cache
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IDE - NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# IDE - VS Code
+.vscode/
+
+# Build directories
+build/
+
+# macOS
+.DS_Store
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Local Spring configuration containing secrets
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+
+# Personal AWS development notes
+/Notes.java
+
+# Local Spring configuration
+src/main/resources/application-local.yaml
+src/main/resources/application-local.yml
+src/main/resources/application-local.properties
